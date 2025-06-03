@@ -10,7 +10,7 @@ function Footer() {
         <p className="footer-text">© {new Date().getFullYear()} Stars Factory. All rights reserved.</p>
         <div className="footer-links">
           <a href="https://www.linkedin.com/company/stars-factory" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="https://discord.gg/xX28KJ5T" target="_blank" rel="noopener noreferrer">Discord</a>
+          <a href="https://discord.gg/vTEG6apndR" target="_blank" rel="noopener noreferrer">Discord</a>
         </div>
       </div>
     </footer>

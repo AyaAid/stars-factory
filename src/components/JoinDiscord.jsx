@@ -12,7 +12,7 @@ function JoinDiscord() {
             Ask questions, share your journey, join missions and meet future astronauts like you. Our universe is better together.
           </p>
           <a
-            href="https://discord.gg/xX28KJ5T"
+            href="https://discord.gg/vTEG6apndR"
             target="_blank"
             rel="noopener noreferrer"
             className="discord-button"

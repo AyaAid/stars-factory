@@ -17,10 +17,10 @@
 }
 
 .hero-title {
-  font-size: 3rem;
+  font-size: 4rem;
   color: #ffffff;
   margin-bottom: 1rem;
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: 1px;
   font-family: var(--font-title);
 }
@@ -28,7 +28,7 @@
 .hero-subtitle {
   font-size: 1.25rem;
   color: #d1d1e9;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   line-height: 1.6;
   font-family: var(--font-body);
 }
@@ -43,6 +43,7 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-family: var(--font-body);
+  margin-bottom: 0.5rem;
 }
 
 .hero-button:hover {
@@ -54,6 +55,23 @@
   width: 100%;
   height: 100%;
   background: url('../../assets/image.png') no-repeat center center / cover;
-  opacity: 0.2;
+  opacity: 0.3;
   z-index: 1;
+}
+
+.hero-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-discord-link {
+  font-size: 0.9rem;
+  color: #a78bfa;
+  transition: color 0.3s ease;
+}
+
+.hero-discord-link:hover {
+  color: #c084fc;
 }

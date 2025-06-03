@@ -1,0 +1,118 @@
+.waitlist-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(5, 5, 20, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  backdrop-filter: blur(6px);
+}
+
+.waitlist-modal {
+  background: linear-gradient(145deg, #1a1a3c, #1f1f3f);
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  padding: 35px 40px;
+  border-radius: 24px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
+  max-width: 420px;
+  width: 90%;
+  color: #ffffff;
+  text-align: center;
+  font-family: var(--font-body);
+  position: relative;
+  animation: popup-in 0.3s ease-out;
+}
+
+@keyframes popup-in {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.waitlist-close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: #a78bfa;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.waitlist-close:hover {
+  transform: scale(1.2);
+}
+
+.waitlist-modal h2 {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  margin-bottom: 12px;
+  color: #c084fc;
+}
+
+.waitlist-modal p {
+  font-size: 1rem;
+  color: #dcdcf0;
+  margin-bottom: 24px;
+  line-height: 1.7;
+}
+
+.waitlist-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.waitlist-form input {
+  padding: 14px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  background-color: #2e2e54;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.waitlist-form input:focus {
+  border-color: #a78bfa;
+}
+
+.waitlist-form button {
+  padding: 12px 20px;
+  background: #a78bfa;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-family: var(--font-body);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.waitlist-form button:hover {
+  background: #c084fc;
+}
+
+.waitlist-success {
+  font-size: 1rem;
+  color: #4ade80;
+  margin-top: 10px;
+}
+
+.waitlist-error {
+  color: #ff6b6b;
+  font-size: 0.95rem;
+  margin-top: 5px;
+}

@@ -1,0 +1,79 @@
+.discord-section {
+  background: #11112d;
+  padding: 120px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: var(--font-body);
+  position: relative;
+  overflow: hidden;
+}
+
+.discord-content {
+  max-width: 800px;
+  width: 100%;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 40px rgba(167, 139, 250, 0.2);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.discord-box::before {
+  content: '';
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: -150px;
+  left: -150px;
+  background: radial-gradient(circle, rgba(167, 139, 250, 0.15), transparent 70%);
+  z-index: 1;
+}
+
+.discord-title {
+  font-size: 2.2rem;
+  font-family: var(--font-title);
+  color: #a78bfa;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.discord-subtitle {
+  font-size: 1.1rem;
+  color: #d1d5db;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.discord-button {
+  background-color: #5865f2;
+  color: white;
+  padding: 14px 32px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 12px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 2;
+  border: none;
+}
+
+.discord-button:hover {
+  background-color: #9f67ff;
+  color: white;
+}
+
+.discord-icon {
+  font-size: 1.4rem;
+}

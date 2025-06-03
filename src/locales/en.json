@@ -1,0 +1,20 @@
+{
+  "hero.title": "Become the Astronaut of Tomorrow",
+  "hero.cta": "Start the journey",
+  "about.title": "About",
+  "about.description": "Stars Factory is an immersive space education platform offering VR courses, NFT certifications recognized in the space sector, and an inclusive approach accessible to all regardless of means or location.",
+  "features.title": "Your Journey",
+  "features.learn": "Learn: Accessible courses in video, VR or text format",
+  "features.train": "Train: Immersive modules simulating astronaut life",
+  "features.certify": "Get Certified: Training-completion NFTs recognized by space organizations",
+  "why.title": "Our Values",
+  "why.inclusion": "Inclusion and equal opportunity",
+  "why.access": "Geographic and financial accessibility",
+  "why.tech": "Futuristic training (VR, NFT, gamification)",
+  "contact.title": "Get in Touch",
+  "contact.name": "Name",
+  "contact.email": "Email",
+  "contact.message": "Message",
+  "contact.submit": "Send",
+  "footer.discord": "Join the Discord community"
+}

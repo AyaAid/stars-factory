@@ -1,0 +1,58 @@
+{
+  "header": {
+    "home": "Accueil",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Deviens l'astronaute de demain",
+    "cta": "Commencer l'aventure"
+  },
+  "about": {
+    "title": "À propos de Stars Factory",
+    "description": "Stars Factory est une plateforme d'éducation spatiale immersive. Elle propose des cours interactifs en réalité virtuelle, des certifications NFT reconnues dans le secteur spatial, et une approche inclusive accessible à tous, quels que soient les moyens ou la localisation géographique."
+  },
+  "features": {
+    "title": "Votre parcours",
+    "learn": {
+      "title": "Apprendre",
+      "description": "Cours accessibles à tous en vidéo, réalité virtuelle ou texte"
+    },
+    "train": {
+      "title": "S'entraîner",
+      "description": "Modules immersifs simulant la vie d'astronaute"
+    },
+    "certify": {
+      "title": "Se certifier",
+      "description": "NFT de fin de formation, reconnus par des acteurs du spatial"
+    }
+  },
+  "why": {
+    "title": "Pourquoi Stars Factory ?",
+    "inclusion": {
+      "title": "Inclusion et égalité des chances",
+      "description": "Une formation accessible à tous, sans distinction"
+    },
+    "accessibility": {
+      "title": "Accessibilité",
+      "description": "Disponible partout, à tout moment"
+    },
+    "innovation": {
+      "title": "Formation futuriste",
+      "description": "VR, NFT, et gamification pour une expérience unique"
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Envoyer",
+    "required": "Ce champ est requis",
+    "emailInvalid": "Veuillez entrer une adresse email valide"
+  },
+  "footer": {
+    "joinDiscord": "Rejoindre la communauté Discord",
+    "followUs": "Suivez-nous"
+  }
+}

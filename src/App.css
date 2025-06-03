@@ -1,0 +1,33 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: var(--font-body);
+  background-color: #0a0a1f;
+  color: white;
+  overflow-x: hidden;
+}
+
+.app {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  --font-title: 'Roboto Mono', monospace;
+  --font-body: 'Inter', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-title);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 1rem;
+}
+
+button, input, textarea {
+  font-family: var(--font-body);
+}

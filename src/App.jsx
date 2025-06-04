@@ -17,8 +17,8 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <Scene3D />
         <About />
+        <Scene3D />
         <Features />
         <Why />
         <JoinDiscord/>
